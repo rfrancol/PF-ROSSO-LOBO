@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #F0E0D1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#raam {
+    background-color: #D61841;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 10px;
+
+}
+
+nav ul {
+    text-align: right;
+    list-style: none;
+
+}
+
+#portada {
+    text-align: center;
+}
+
+.box1 {
+    padding: 300px;
+}
+
+.box2 {
+    padding: 300px;
+}
+
+.box3 {
+    padding: 300px
+}
+
+.box4 {
+    padding: 300px
+}
+
+.box5 {
+    padding: 300px
+}
+
+.fieldset1 {
+
+    width: 600px;
+}
+
+.input1 {
+
+    height: 100px;
+    width: 600px
+}
+
+.servicio {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+.nav-raam {
+
+    color: white
+}
+
+.footer {
+    background-color: #AEADAD;
+}
+
+footer ul {
+    list-style: none
+}
