@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
@@ -31,32 +31,38 @@
     </header>
     <main>
 
-        <section>
-            <article>
-                <div>
+        <section id="gridcontacto">
+            <aside>
+                <div class="gridinfo">
                     <h4>Encontranos</h4>
                     <p>Dirección: Progreso 306/Irala 413, Llavallol. Buenos Aires, Argentina.</p>
                     <p>Teléfono: 4231-8000</p>
                     <p>Correo: info@lrs.com</p>
                     <p>Codigo Postal: 1836</p>
                 </div>
-                <form action="Contacto">
-                    <fieldset class="fieldset1">
-                        <legend>
-                            <h5>Contactanos</h5>
-                        </legend>
-                        <div><input type="Nombre" placeholder="Nombre" required></div>
-                        <div><input type="Apellido" placeholder="Apellido" required> </div>
-                        <div><input type="Telefono" placeholder="Teléfono" required></div>
-                        <div><input type="Pedido" placeholder="Correo" required></div>
-                        <div><input class="input1" type="Pedido" placeholder="Realizá tu pedido online" required></div>
-                        <button><input type="submit" value="Contactar con un vendedor"></button>
-                    </fieldset>
-                </form>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1638.2549404396198!2d-58.42305809921705!3d-34.79311189999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2531adaf355%3A0x8a4237b24e76dc4e!2sLa%20Refinadora%20del%20Sud!5e0!3m2!1ses!2sar!4v1684592426639!5m2!1ses!2sar"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </aside>
+
+            <div class="formcontacto">
+            <form action="Contacto">
+                <fieldset class="fieldset1">
+                    <legend>
+                        <h5>Contactanos</h5>
+                    </legend>
+                    <div><input type="Nombre" placeholder="Nombre" required></div>
+                    <div><input type="Apellido" placeholder="Apellido" required> </div>
+                    <div><input type="Telefono" placeholder="Teléfono" required></div>
+                    <div><input type="Pedido" placeholder="Correo" required></div>
+                    <div><input class="input1" type="Pedido" placeholder="Realizá tu pedido online" required></div>
+                    <button><input type="submit" value="Contactar con un vendedor"></button>
+                </fieldset>
+            </form>
+            <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1638.2549404396198!2d-58.42305809921705!3d-34.79311189999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2531adaf355%3A0x8a4237b24e76dc4e!2sLa%20Refinadora%20del%20Sud!5e0!3m2!1ses!2sar!4v1684592426639!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
     </main>
 
     <hr>
@@ -81,12 +87,12 @@
                     <li><a href="#">Contactanos</a></li>
                 </ul>
             </div>
-        </div> 
-            <a href="#">Volver arriba</a>
-    
-            <div>
-                Copyright © - La Refinadora del Sud - R.A.A.M. SRL. 2023
-            </div>
+        </div>
+        <a href="#">Volver arriba</a>
+
+        <div>
+            Copyright © - La Refinadora del Sud - R.A.A.M. SRL. 2023
+        </div>
     </footer>
 </body>
 </footer>
