@@ -5,27 +5,46 @@
     font-family: 'Poppins', sans-serif;
 }
 
-header {
+
+
+.navbar {
     background-color: #F0E0D1;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+  }
 
-header nav ul {
-    list-style: none;
-      justify-content: center;
-}
-
-header nav ul li {
-    padding: 20px;
-}
-
-header nav a {
-    text-decoration: none;
-}
+  .navbar navbar-expand-lg navbar-light bg-light {
+    background-color: #F0E0D1;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    font-weight: bold;
+    background-color: #F0E0D1;
+  }
+  
+  /* Responsive breakpoints */
+  @media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+      padding-right: 0.5rem;
+      padding-left: 0.5rem;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .nav-link {
+      padding-right: 0.25rem;
+      padding-left: 0.25rem;
+    }
+  }
 
 #raam {
     background-color: #D61841;
