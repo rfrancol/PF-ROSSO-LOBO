@@ -23,6 +23,10 @@
     font-weight: bold;
     background-color: #F0E0D1;
   }
+
+  .container {
+    background-color: #F0E0D1;
+  }
   
   /* Responsive breakpoints */
   @media (max-width: 991px) {
