@@ -1,154 +1,117 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-
-
-.navbar {
-    background-color: #F0E0D1;
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
-  .navbar navbar-expand-lg navbar-light bg-light {
-    background-color: #F0E0D1;
-  }
-  
-  .navbar-brand {
-    font-weight: bold;
-  }
-  
-  .navbar-nav .nav-link {
-    font-weight: bold;
-    background-color: #F0E0D1;
-  }
-
-  .container {
-    background-color: #F0E0D1;
-  }
-  
-  /* Responsive breakpoints */
-  @media (max-width: 991px) {
-    .navbar-expand-lg .navbar-nav .nav-link {
-      padding-right: 1rem;
-      padding-left: 1rem;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    .navbar-expand-md .navbar-nav .nav-link {
-      padding-right: 0.5rem;
-      padding-left: 0.5rem;
-    }
-  }
-  
-  @media (max-width: 575px) {
-    .navbar-expand-sm .navbar-nav .nav-link {
-      padding-right: 0.25rem;
-      padding-left: 0.25rem;
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
     }
   }
 
-#raam {
-    background-color: #D61841;
+  /* GLOBAL STYLES
+  --------------------------------------------- */
+  /* Padding below the footer and lighter body text */
+
+  body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+  
+
+
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------- */
+
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 4rem;
+  }
+
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+
+  .carousel-item>img {
+    position: absolute;
     top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+    filter: opacity(25%);
+      }
 
-header nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
 
-header nav ul li {
-    padding: 20px;
+  /* MARKETING CONTENT
+-------------------------------------------------- */
 
-}
-
-#portada {
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
     text-align: center;
-    padding: 400px;
-    display: flex;
-    flex-flow: column;
-    align-items: center
-}
+  }
 
-.box1 {
-    padding: 300px;
-}
+  .marketing h2 {
+    font-weight: 400;
+  }
 
-.box2 {
-    padding: 300px;
-}
-
-.box3 {
-    padding: 300px
-}
-
-.box4 {
-    padding: 300px
-}
-
-.box5 {
-    padding: 300px
-}
-
-.fieldset1 {
-
-    width: 600px;
-}
-
-.input1 {
-
-    height: 100px;
-    width: 300px
-}
-
-.servicio {
-    padding: 10px;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-}
-
-a {
-    text-decoration: none;
-    color: black
-}
-
-.nav-raam {
-
-    color: white
-}
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
 
 
-footer {
-    background-color: #AEADAD;
-    padding-left: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: space-evenly;
-    font-size: 10px;
-}
+  /* Featurettes
+------------------------- */
 
-footer ul {
-    list-style: none
-}
+  .featurette-divider {
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
+  }
 
-.row2 {
-    display: flex;
-    align-items:center;
-    justify-content: center;
-}
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
 
-.footersecciones {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
+
+  /* RESPONSIVE CSS
+-------------------------------------------------- */
+
+  @media (min-width: 40em) {
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
