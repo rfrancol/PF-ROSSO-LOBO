@@ -20,7 +20,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 </head>
@@ -28,7 +28,8 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
+
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
                 <a href="#">
                     <img width="50" img src="../images/loguitocondetalle2.jpg" alt="logoraam">
@@ -65,134 +66,177 @@
         </nav>
     </header>
 
+
+
     <main>
 
-        <div class="container marketing">
-            <div class="row">
-                <div class="col-lg-4">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_916415-MLA46177350348_052021-O.webp" width="60%"
-                        height="50%" fill="#777" alt="caja de grasa" />
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+                        <rect width="100%" height="100%" fill="#777" />
+                        <img src="https://sellsidehandbook.com/wp-content/uploads/2016/11/industrial-720706_960_720.jpg"
+                            alt="planta refinadora de aceites minerales">
+                    </svg>
 
-                    <h2>Grasas</h2>
-                    <p>P.F. 48º C - Color : Amarillo- Sabor Neutro - 1 Blok por 20 Kg.
-                        Uso: En General Factureria, Pasteleria, Frituras, Panificados, Panificados, Hojaldres, Panes de
-                        moldes, Desmoldante, Galletitas.</p>
-                    <p><a class="btn btn-secondary" href="./pages/prodlrs.html" role="button">Ver mas &raquo;</a></p>
-                </div>
-                <div class="col-lg-4">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_946556-MLA48041585221_102021-O.webp" width="60%"
-                        height="50%" fill="#777" alt="pote de vaselina" />
-
-                    <h2>Vaselina Medicinal Blanca </h2>
-                    <p>Los Petrolatos blancos de la línea medicinal son mezclas de parafinas sólidas y líquidas de
-                        máxima pureza y refinación, de grado farmacéutico, cosmético y alimenticio. Sus cualidades los
-                        hacen indispensables para una amplia gama de usos.
-                    </p>
-                    <p><a class="btn btn-secondary" href="./pages/prodraam.html" role="button">Ver mas &raquo;</a></p>
-                </div>
-                <div class="col-lg-4">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_992484-MLA54007046051_022023-Y.webp" width="60%"
-                        height="50%" fill="#777" alt="caja de margarina" />
-
-                    <h2>Margarinas</h2>
-                    <p>P.F. 36º C a 39º C Color Amarillo - 1 Block x 10 - Sabor Manteca
-                        Uso: Pasteleria, Batidos, Masas Secas, Pan Dulce, Budines, Roscas, Magdalenas, Biscochuelos,
-                        Galletitas de alta calidad.</p>
-                    <p><a class="btn btn-secondary" href="./pages/prodlrs.html" role="button">Ver mas &raquo;</a></p>
-                </div>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>R.A.A.M.</h1>
+                            <h2>Refinería Argentina de Aceites Minerales</h2>
+                            <p>Nuestra tecnología garantiza una producción confiable y de alta calidad para satisfacer las demandas de la industria y el mercado.</p>
+                        </div>
+                    </div>
+                </div>           
             </div>
 
-            <hr class="featurette-divider">
-
-        </div>
-
-        <div class="container marketing">
-            <div class="row">
-                <div class="col-lg-4">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_916415-MLA46177350348_052021-O.webp" width="60%"
-                        height="50%" fill="#777" alt="caja de grasa" />
+            <div class="container marketing">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="https://www.marbequimica.com.ar/wp-content/uploads/2018/09/cicarelli_1000gr_34.jpg" width="90%"
+                            height="50%" fill="#777" alt="vaselina solida amarilla" />
 
 
-                    <h2>Grasas</h2>
-                    <p>P.F. 48º C - Color : Amarillo- Sabor Neutro - 1 Blok por 20 Kg.
-                        Uso: En General Factureria, Pasteleria, Frituras, Panificados, Panificados, Hojaldres, Panes de
-                        moldes, Desmoldante, Galletitas.</p>
-                    <p><a class="btn btn-secondary" href="./pages/prodlrs.html" role="button">Ver mas &raquo;</a></p>
+                        <h2>Vaselina Sólida Amarilla</h2>
+                        <p>P.F. 48º C - Color : Amarillo- Sabor Neutro - 1 Blok por 20 Kg.
+                            Uso: En General Factureria, Pasteleria, Frituras, Panificados, Panificados, Hojaldres, Panes
+                            de
+                            moldes, Desmoldante, Galletitas.</p>
+                        <p><a class="btn btn-secondary" href="./pages/prodlrs.html" role="button">Comprar &raquo;</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_946556-MLA48041585221_102021-O.webp" width="70%"
+                            height="50%" fill="#777" alt="pote de vaselina" />
+
+                        <h2>Vaselina Medicinal Blanca </h2>
+                        <p>Los Petrolatos blancos de la línea medicinal son mezclas de parafinas sólidas y líquidas de
+                            máxima pureza y refinación, de grado farmacéutico, cosmético y alimenticio. Sus cualidades
+                            los
+                            hacen indispensables para una amplia gama de usos.
+                        </p>
+                        <p><a class="btn btn-secondary" href="./pages/prodraam.html" role="button">Ver mas &raquo;</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_992484-MLA54007046051_022023-Y.webp" width="60%"
+                            height="50%" fill="#777" alt="caja de margarina" />
+
+                        <h2>Margarinas</h2>
+                        <p>P.F. 36º C a 39º C Color Amarillo - 1 Block x 10 - Sabor Manteca
+                            Uso: Pasteleria, Batidos, Masas Secas, Pan Dulce, Budines, Roscas, Magdalenas, Biscochuelos,
+                            Galletitas de alta calidad.</p>
+                        <p><a class="btn btn-secondary" href="./pages/prodlrs.html" role="button">Ver mas &raquo;</a>
+                        </p>
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_946556-MLA48041585221_102021-O.webp" width="60%"
-                        height="50%" fill="#777" alt="pote de vaselina" />
 
-                    <h2>Vaselina Medicinal Blanca </h2>
-                    <p>Los Petrolatos blancos de la línea medicinal son mezclas de parafinas sólidas y líquidas de
-                        máxima pureza y refinación, de grado farmacéutico, cosmético y alimenticio. Sus cualidades los
-                        hacen indispensables para una amplia gama de usos.
-                    </p>
-                    <p><a class="btn btn-secondary" href="./pages/prodraam.html" role="button">Ver mas &raquo;</a></p>
-                </div>
-                <div class="col-lg-4">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_992484-MLA54007046051_022023-Y.webp" width="60%"
-                        height="50%" fill="#777" alt="caja de margarina" />
+                <hr class="featurette-divider">
 
-                    <h2>Margarinas</h2>
-                    <p>P.F. 36º C a 39º C Color Amarillo - 1 Block x 10 - Sabor Manteca
-                        Uso: Pasteleria, Batidos, Masas Secas, Pan Dulce, Budines, Roscas, Magdalenas, Biscochuelos,
-                        Galletitas de alta calidad.</p>
-                    <p><a class="btn btn-secondary" href="./pages/prodlrs.html" role="button">Ver mas &raquo;</a></p>
-                </div>
             </div>
 
-            <hr class="featurette-divider">
-
-        </div>
-
-        <div class="container marketing">
-            <div class="row">
-                <div class="col-lg-4">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_916415-MLA46177350348_052021-O.webp" width="60%"
-                        height="50%" fill="#777" alt="caja de grasa" />
+            <div class="container marketing">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_916415-MLA46177350348_052021-O.webp" width="60%"
+                            height="50%" fill="#777" alt="caja de grasa" />
 
 
-                    <h2>Grasas</h2>
-                    <p>P.F. 48º C - Color : Amarillo- Sabor Neutro - 1 Blok por 20 Kg.
-                        Uso: En General Factureria, Pasteleria, Frituras, Panificados, Panificados, Hojaldres, Panes de
-                        moldes, Desmoldante, Galletitas.</p>
-                    <p><a class="btn btn-secondary" href="./pages/prodlrs.html" role="button">Ver mas &raquo;</a></p>
+                        <h2>Grasas</h2>
+                        <p>P.F. 48º C - Color : Amarillo- Sabor Neutro - 1 Blok por 20 Kg.
+                            Uso: En General Factureria, Pasteleria, Frituras, Panificados, Panificados, Hojaldres, Panes
+                            de
+                            moldes, Desmoldante, Galletitas.</p>
+                        <p><a class="btn btn-secondary" href="./pages/prodlrs.html" role="button">Ver mas &raquo;</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_946556-MLA48041585221_102021-O.webp" width="60%"
+                            height="50%" fill="#777" alt="pote de vaselina" />
+
+                        <h2>Vaselina Medicinal Blanca </h2>
+                        <p>Los Petrolatos blancos de la línea medicinal son mezclas de parafinas sólidas y líquidas de
+                            máxima pureza y refinación, de grado farmacéutico, cosmético y alimenticio. Sus cualidades
+                            los
+                            hacen indispensables para una amplia gama de usos.
+                        </p>
+                        <p><a class="btn btn-secondary" href="./pages/prodraam.html" role="button">Ver mas &raquo;</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_992484-MLA54007046051_022023-Y.webp" width="60%"
+                            height="50%" fill="#777" alt="caja de margarina" />
+
+                        <h2>Margarinas</h2>
+                        <p>P.F. 36º C a 39º C Color Amarillo - 1 Block x 10 - Sabor Manteca
+                            Uso: Pasteleria, Batidos, Masas Secas, Pan Dulce, Budines, Roscas, Magdalenas, Biscochuelos,
+                            Galletitas de alta calidad.</p>
+                        <p><a class="btn btn-secondary" href="./pages/prodlrs.html" role="button">Ver mas &raquo;</a>
+                        </p>
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_946556-MLA48041585221_102021-O.webp" width="60%"
-                        height="50%" fill="#777" alt="pote de vaselina" />
 
-                    <h2>Vaselina Medicinal Blanca </h2>
-                    <p>Los Petrolatos blancos de la línea medicinal son mezclas de parafinas sólidas y líquidas de
-                        máxima pureza y refinación, de grado farmacéutico, cosmético y alimenticio. Sus cualidades los
-                        hacen indispensables para una amplia gama de usos.
-                    </p>
-                    <p><a class="btn btn-secondary" href="./pages/prodraam.html" role="button">Ver mas &raquo;</a></p>
-                </div>
-                <div class="col-lg-4">
-                    <img src="https://http2.mlstatic.com/D_NQ_NP_992484-MLA54007046051_022023-Y.webp" width="60%"
-                        height="50%" fill="#777" alt="caja de margarina" />
+                <hr class="featurette-divider">
 
-                    <h2>Margarinas</h2>
-                    <p>P.F. 36º C a 39º C Color Amarillo - 1 Block x 10 - Sabor Manteca
-                        Uso: Pasteleria, Batidos, Masas Secas, Pan Dulce, Budines, Roscas, Magdalenas, Biscochuelos,
-                        Galletitas de alta calidad.</p>
-                    <p><a class="btn btn-secondary" href="./pages/prodlrs.html" role="button">Ver mas &raquo;</a></p>
-                </div>
             </div>
 
-            <hr class="featurette-divider">
+            <div class="container marketing">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_916415-MLA46177350348_052021-O.webp" width="60%"
+                            height="50%" fill="#777" alt="caja de grasa" />
 
-        </div>
 
-        <footer class="container">
-            <p class="float-right"><a href="#">Volver Arriba</a></p>
-            <p>&copy; Copyright © - La Refinadora del Sud - R.A.A.M. SRL. 2023 &middot; <a
-                    href="./pages/contacto.html">Contactanos</a> &middot; <a href="./pages/sobrenosotros.html">Mas sobre
-                    nosotros</a></p>
-        </footer>
+                        <h2>Grasas</h2>
+                        <p>P.F. 48º C - Color : Amarillo- Sabor Neutro - 1 Blok por 20 Kg.
+                            Uso: En General Factureria, Pasteleria, Frituras, Panificados, Panificados, Hojaldres, Panes
+                            de
+                            moldes, Desmoldante, Galletitas.</p>
+                        <p><a class="btn btn-secondary" href="./pages/prodlrs.html" role="button">Ver mas &raquo;</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_946556-MLA48041585221_102021-O.webp" width="60%"
+                            height="50%" fill="#777" alt="pote de vaselina" />
+
+                        <h2>Vaselina Medicinal Blanca </h2>
+                        <p>Los Petrolatos blancos de la línea medicinal son mezclas de parafinas sólidas y líquidas de
+                            máxima pureza y refinación, de grado farmacéutico, cosmético y alimenticio. Sus cualidades
+                            los
+                            hacen indispensables para una amplia gama de usos.
+                        </p>
+                        <p><a class="btn btn-secondary" href="./pages/prodraam.html" role="button">Ver mas &raquo;</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_992484-MLA54007046051_022023-Y.webp" width="60%"
+                            height="50%" fill="#777" alt="caja de margarina" />
+
+                        <h2>Margarinas</h2>
+                        <p>P.F. 36º C a 39º C Color Amarillo - 1 Block x 10 - Sabor Manteca
+                            Uso: Pasteleria, Batidos, Masas Secas, Pan Dulce, Budines, Roscas, Magdalenas, Biscochuelos,
+                            Galletitas de alta calidad.</p>
+                        <p><a class="btn btn-secondary" href="./pages/prodlrs.html" role="button">Ver mas &raquo;</a>
+                        </p>
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+            </div>
+
+            <footer class="container">
+                <p class="float-right"><a href="#">Volver Arriba</a></p>
+                <p>&copy; Copyright © - La Refinadora del Sud - R.A.A.M. SRL. 2023 &middot; <a
+                        href="./pages/contacto.html">Contactanos</a> &middot; <a href="./pages/sobrenosotros.html">Mas
+                        sobre
+                        nosotros</a></p>
+            </footer>
     </main>
 </body>
+
 </html>
