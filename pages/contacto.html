@@ -28,10 +28,12 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
+
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
                 <a href="#">
-                  <img width="50" img src="../images/loguitocondetalle.jpg" alt="logolrs">  <img width="50" img src="../images/loguitocondetalle2.jpg" alt="logoraam">
+                    <img width="50" img src="../images/loguitocondetalle.jpg" alt="logolrs">
+                    <img width="60" src="../images/loguitocondetalle2.jpg" alt="logoraam">
                 </a>
                 <a class="navbar-brand" href="#">La Refinadora del Sud - R.A.A.M.</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
@@ -44,7 +46,7 @@
                             <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="prodlrs.html"> Productos Refinadora</a>
+                            <a class="nav-link" href="../pages/prodlrs.html"> Productos Refinadora</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../pages/prodraam.html"> Productos R.A.A.M.</a>
@@ -53,7 +55,7 @@
                             <a class="nav-link" href="../pages/sobrenosotros.html"> Sobre Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                            <a class="nav-link" href="contacto.html">Contacto</a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -67,51 +69,137 @@
 
     <main>
 
+        <hr class="featurette-divider">
+        
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
+
+            <form class="row g-3 needs-validation" novalidate>
+                <h4>Contactanos</h4>
+                <div class="col-md-4">
+                    <label for="validationCustom01" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="validationCustom01" required>
+                    <div class="valid-feedback">
+                        ¡Gracias!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="validationCustom02" required>
+                    <div class="valid-feedback">
+                        ¡Gracias!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustomUsername" class="form-label">Mail</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername"
+                            aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                            Por favor, complete el campo.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                        Por favor, complete el campo.
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom04" class="form-label">Provincia</label>
+                    <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Elegir...</option>
+                        <option>Buenos Aires</option>
+                        <option>Ciudad Autónoma de Buenos Aires</option>
+                        <option>Catamarca</option>
+                        <option>Chaco</option>
+                        <option>Chubut</option>
+                        <option>Córdoba</option>
+                        <option>Corrientes</option>
+                        <option>Entre Ríos</option>
+                        <option>Formosa</option>
+                        <option>Jujuy</option>
+                        <option>La Pampa</option>
+                        <option>La Rioja</option>
+                        <option>Mendoza</option>
+                        <option>Misiones</option>
+                        <option>Neuquén</option>
+                        <option>Río Negro</option>
+                        <option>Salta</option>
+                        <option>San Juan</option>
+                        <option>San Luis</option>
+                        <option>Santa Cruz</option>
+                        <option>Santa Fe</option>
+                        <option>Santiago del Estero</option>
+                        <option>Tierra del Fuego</option>
+                        <option>Tucumán</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Por favor, elija una provincia válida.
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom05" class="form-label">Código Postal</label>
+                    <input type="text" class="form-control" id="validationCustom05" required>
+                    <div class="invalid-feedback">
+                        Por favor, indique un código postal válido.
+                    </div>
+                </div>
+                <div class="col-12">
+                    <label for="validationCustom06" class="form-label">Su pedido o consulta</label>
+                    <div class="textarea">
+                        <textarea class="form-control" id="validationCustom06" rows="3" required></textarea>
+                    </div>
+                    <div class="invalid-feedback">
+                        Por favor, complete con su solicitud.
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                            De acuerdo con los términos y condiciones
+                        </label>
+                        <div class="invalid-feedback">
+                            Debe aceptar antes de enviar el formulario.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-dark" type="submit">Contactar con un vendedor</button>
+                </div>
+            </form>
+
+            <hr class="featurette-divider">
+
+            <div>
+                <div class="row-md-4">
                     <h4>Encontranos</h4>
                     <p>Dirección: Progreso 306/Irala 413, Llavallol. Buenos Aires, Argentina.</p>
-                    <p>Teléfono: 4231-8000</p>
-                    <p>Correo: info@lrs.com</p>
-                    <p>Codigo Postal: 1836</p>
+                    <p>Teléfono: 4231-8000 - Correo: info@lrs.com - Codigo Postal: 1836</p>
                 </div>
 
-                <div class="col-lg-3">
-                    <form action="Contacto">
-                        <fieldset class="fieldset1">
-                            <legend>
-                                <h5>Contactanos</h5>
-                            </legend>
-                            <div><input type="Nombre" placeholder="Nombre" required></div>
-                            <div><input type="Apellido" placeholder="Apellido" required> </div>
-                            <div><input type="Telefono" placeholder="Teléfono" required></div>
-                            <div><input type="Pedido" placeholder="Correo" required></div>
-                            <div><input class="input1" type="Pedido" placeholder="Realizá tu pedido online" required>
-                            </div>
-                            <button><input type="submit" value="Contactar con un vendedor"></button>
-                        </fieldset>
-                    </form>
-                </div>
-            
-
-                <div class="col-lg-6">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1638.2549404396198!2d-58.42305809921705!3d-34.79311189999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2531adaf355%3A0x8a4237b24e76dc4e!2sLa%20Refinadora%20del%20Sud!5e0!3m2!1ses!2sar!4v1684592426639!5m2!1ses!2sar"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade" alt="mapa ubicacion llavallol"></iframe>
-                </div>
+                <hr class="featurette-divider">
             </div>
 
-            </section>
+            <div class="row">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1638.2549404396198!2d-58.42305809921705!3d-34.79311189999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2531adaf355%3A0x8a4237b24e76dc4e!2sLa%20Refinadora%20del%20Sud!5e0!3m2!1ses!2sar!4v1684592426639!5m2!1ses!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" alt="mapa ubicacion llavallol"></iframe>
+            </div>
         </div>
+
 
         <footer class="container">
             <p class="float-right"><a href="#">Volver Arriba</a></p>
-            <p>&copy; Copyright © - La Refinadora del Sud - R.A.A.M. SRL. 2023 &middot; <a
-                    href="#">Contactanos</a> &middot; <a href="../pages/sobrenosotros.html">Mas sobre
+            <p>&copy; Copyright © - La Refinadora del Sud - R.A.A.M. SRL. 2023 &middot; <a href="#">Contactanos</a>
+                &middot; <a href="../pages/sobrenosotros.html">Mas sobre
                     nosotros</a></p>
         </footer>
     </main>
 </body>
+
 </html>
